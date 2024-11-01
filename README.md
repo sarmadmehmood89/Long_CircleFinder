@@ -32,7 +32,7 @@
 
 To run **Long-CircleFinder**, you will need:
 
-- **Python >= 3.7**
+- **Python >= 3 
 - **Pysam**: for handling SAM/BAM files.
   ```bash
   pip install pysam
