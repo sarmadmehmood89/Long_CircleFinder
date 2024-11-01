@@ -41,6 +41,15 @@ python long_circlefinder.py --bam data/sample_data.bam --output_dir results/ --r
 - **Consensus Sequences**: `<output_dir>/consensus_sequences.fa`
 - **Refined Breakpoints**: `<output_dir>/refined_breakpoints.txt`
 
+## eccDNA Generator
+
+The `eccDNA_generator.py` script generates eccDNA sequences by selecting random DNA fragments from specified chromosomes in a genome, while avoiding regions specified in a BED file. This tool can be used to simulate eccDNA structures by combining random fragments into contiguous sequences.
+
+### Usage
+```bash
+python eccDNA_generator.py --genome_file <path_to_genome_fasta> --bed_file <path_to_bed_file> --num_fragments_per_chromosome 5 --total_eccDNA 10 --output_directory eccDNA_sequences
+
+
 ## License
 This project is licensed under the MIT License.
 
