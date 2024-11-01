@@ -47,4 +47,3 @@ This project is licensed under the MIT License.
 ## Citation
 If you use **Long-CircleFinder** in your research, please cite:
 
-**Author et al.** "Long-CircleFinder: A tool for detecting eccDNA from long-read sequencing data." *Journal Name*, Year.
