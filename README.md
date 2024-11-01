@@ -146,4 +146,3 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 If you use **Long-CircleFinder** in your research, please cite:
 
-
