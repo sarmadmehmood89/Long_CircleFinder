@@ -49,6 +49,15 @@ The `eccDNA_generator.py` script generates eccDNA sequences by selecting random 
 ```bash
 python eccDNA_generator.py --genome_file <path_to_genome_fasta> --bed_file <path_to_bed_file> --num_fragments_per_chromosome 5 --total_eccDNA 10 --output_directory eccDNA_sequences
 
+## Simulate Reads
+
+The `simulate_reads.py` script simulates sequencing reads from eccDNA FASTA files using **NanoSim**. It generates synthetic reads for each eccDNA sequence based on specified coverage levels, useful for testing eccDNA analysis workflows.
+
+### Usage
+```bash
+python simulate_reads.py --input_dir <path_to_eccDNA_FASTA_files> --output_dir <output_directory> --model_prefix <path_to_NanoSim_model_directory> --read_length <read_length>
+
+
 
 ## License
 This project is licensed under the MIT License.
