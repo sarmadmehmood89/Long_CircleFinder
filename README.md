@@ -48,7 +48,7 @@ To run **Long-CircleFinder**, you will need:
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/your-username/Long-CircleFinder.git
+   git clone https://github.com/sarmadmehmood89/Long-CircleFinder.git
    cd Long-CircleFinder
    ```
 
